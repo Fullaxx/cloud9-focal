@@ -15,7 +15,7 @@ ENV NODEPKGURL https://nodejs.org/dist/latest-v0.12.x/node-v0.12.18-linux-x64.ta
 # ------------------------------------------------------------------------------
 # Install base and clean up
 RUN apt-get update && apt-get install -y --no-install-recommends \
-	  build-essential g++ locales curl git ca-certificates python2.7-minimal && \
+	  build-essential g++ locales curl git ca-certificates python2.7-minimal \
 	  libcurl4-gnutls-dev libevent-dev libgcrypt-dev libhiredis-dev \
 	  libmicrohttpd-dev libpcap-dev libsqlite3-dev libssl-dev libwebsockets-dev \
 	  libxml2-dev libzmq3-dev xxhash && \
