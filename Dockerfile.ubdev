@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	  libmicrohttpd-dev libnet1-dev libnet1-dbg libnet1-doc \
 	  libpcap0.8-dev libpcap0.8-dbg libsqlite3-dev libssl-dev \
 	  libwebsockets-dev libxml2-dev libxml2-doc libzmq3-dev \
-	  lsof most nano net-tools openssh-client psmisc sshfs tree xxd xxhash && \
+	  lsof most nano net-tools openssh-client psmisc sshfs strace tree xxd xxhash && \
 	apt-get clean && rm -rf /var/lib/apt/lists/* /var/tmp/* /tmp/*
 
 # ------------------------------------------------------------------------------
